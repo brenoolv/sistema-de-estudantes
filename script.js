@@ -66,6 +66,8 @@ while (executando) {
             // TODO:
             // Verificar se existem alunos cadastrados
             if (alunos.length != 0) {
+                // TODO:
+                // Percorrer o array utilizando FOR
                 for (i = 0; i < alunos.length; i++) {
                     console.log(
                         "id: " + (i + 1) + "\n" +
@@ -75,8 +77,6 @@ while (executando) {
                     )
                 }
             }
-            // TODO:
-            // Percorrer o array utilizando FOR
 
             // Mostrar:
             // Nome
@@ -101,11 +101,22 @@ while (executando) {
             // TODO:
             // Percorrer o array procurando
             // pelo nome informado.
+            for (let i = 0; i < alunos.length; i++) {
+                // Se encontrar:
+                // - Mostrar os dados
+                if (alunos[i].nome.toLocaleUpperCase === nomeBusca) {
+                    console.log("================")
+                    console.log("Alunos: " + alunos[i].nome);
+                    console.log("Idade: " + alunos[i].idade);
+                    console.log("Nota: " + alunos[i].nota);
 
-            // Se encontrar:
-            // - Mostrar os dados
-            // - Alterar alunoEncontrado para true
-            // - Utilizar BREAK
+                    // - Alterar alunoEncontrado para true
+                    alunoEncontrado = true;
+                    // - Utilizar BREAK
+                    break
+                }
+            }
+
 
 
             if (!alunoEncontrado) {
