@@ -1,0 +1,24 @@
+{
+  "name": "exercicios-java",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brenoolv/sistema-de-estudantes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/brenoolv/sistema-de-estudantes/issues"
+  },
+  "homepage": "https://github.com/brenoolv/sistema-de-estudantes#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
